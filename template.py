@@ -22,7 +22,15 @@ list_of_files=[
     f'{project_name}/pipline/training_pipeline.py',
     f'{project_name}/pipline/predection_pipeline.py',
     f'{project_name}/utils/__init__.py',
-    f'{project_name}/utils/main_utils.py'
+    f'{project_name}/utils/main_utils.py',
+    "app.py",
+    "requirments.py",
+    "Dockerfile.py",
+    ".dockerignore",
+    "demo.py",
+    "setup.py",
+    "config/model.yaml",
+    "config/schma.yaml",
 ]
 
 for filepath in list_of_files:
